@@ -15,6 +15,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    //bblalblbablablablablablalba  blblablblblbalblballab blblblblblblb
+
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var navController: NavController
 
@@ -37,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
+       //dfkjnfdsojdfj
     }
 
     private fun visibilityNavElements(navController: NavController) {
@@ -62,7 +64,7 @@ class MainActivity : AppCompatActivity() {
         main_drawer_layout?.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED) //To lock navigation drawer so that it don't respond to swipe gesture
     }
 
-    private fun hideBottomNavigation() { //Hide bottom navigation
+    private fun hideBottomNavigation() { //Hide bottom navigationxxx
         //main_bottom_navigation_view?.visibility = View.GONE
         main_navigation_view?.visibility = View.VISIBLE
         main_drawer_layout?.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED) //To unlock navigation drawer
